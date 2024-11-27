@@ -1,0 +1,111 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/app/(landing)/us/en/services/styles.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_services__T_LNi {
+  margin-bottom: 90px;
+}
+.styles_services__T_LNi h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-bottom: 64px;
+}
+.styles_services__inner__AyW0r {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.styles_services__list__q4PYq {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.styles_services__button__erPRI {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.styles_service__4RgLP {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.styles_service__content__x5g_J {
+  flex: 1 1;
+}
+.styles_service__img__4HdrK {
+  flex: 1 1;
+  height: 300px;
+}
+.styles_service__img__4HdrK img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.styles_service__title__ltR2v {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.styles_service__description__caFy8 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 500;
+  color: #666;
+}
+.styles_service__reverse__ITtWf {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 1200px) {
+  .styles_services__T_LNi h2 {
+    text-align: center;
+  }
+  .styles_service__4RgLP {
+    flex-direction: column-reverse;
+  }
+  .styles_service__img__4HdrK {
+    height: 250px;
+  }
+  .styles_service__description__caFy8 {
+    font-family: "Poppins", sans-serif;
+    line-height: 20px;
+    width: 100%;
+  }
+  .styles_service__title__ltR2v {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 700px) {
+  .styles_services__T_LNi h2 {
+    text-align: center;
+    font-size: 25;
+  }
+  .styles_service__4RgLP {
+    flex-direction: column-reverse;
+  }
+  .styles_service__inner__iagel {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .styles_service__img__4HdrK {
+    height: 200px;
+  }
+  .styles_service__title__ltR2v {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 21px;
+  }
+  .styles_service__description__caFy8 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,74 @@
+.picker {
+  position: relative;
+
+  &__list {
+    border-left: 1px solid $black;
+    width: 60px;
+    overflow: auto;
+    &-item {
+      cursor: pointer;
+      padding: 10px 0;
+      transition: all 0.3s;
+      text-align: center;
+      &:hover {
+        background: rgba($black, $alpha: 0.25);
+      }
+      &.active {
+        background: $primary-color;
+        color: $white;
+      }
+    }
+  }
+  &__right {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.popup {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  transform: translateY(100%);
+  min-width: 350px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  display: flex;
+  border-radius: 20px;
+  background-color: $white;
+  border: 1px solid $black;
+  overflow: hidden;
+  padding-right: 180px;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.calendar {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .popup {
+    padding-right: 0;
+    flex-direction: column;
+  }
+  .picker {
+    &__right {
+      position: static;
+      border-top: 1px solid $black;
+    }
+    &__list {
+      height: 200px;
+      flex: 1;
+      border: 0;
+    }
+  }
+}
